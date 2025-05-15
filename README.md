@@ -1,5 +1,6 @@
 # Config Sanitizer Tool
-
+English Version
+![](https://github.com/leonelpedroza/ip_monitor/blob/main/UKFlag.png)
 
 ## History
 
@@ -99,3 +100,113 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Originally created by lgp DevOps (March 2022)
 - Enhanced version with additional features (2025)
+
+
+
+__________________________________________________________
+__________________________________________________________
+
+
+# Config Sanitizer Tool
+
+Español
+![](https://github.com/leonelpedroza/ip_monitor/blob/main/SpainFlag.png)
+
+## Historia
+En bastantes de mis funciones, instalando y manteniendo equipos de redes, en varias ocasiones he tenido que interactuar con proveedores y fabricantes de equipos de comunicaciones por casos y consultas puntuales respecto a comportamientos no esperados y, en casi todos los casos, el ingeniero de soporte solicita una copia de la configuración del equipo.
+
+En mi acostumbrada paranoia en ciberseguridad, nunca encontré muy conveniente estar enviado archivos de configuración dejándolos a “merced del viento” en internet.
+
+Hice este programa hace unos tres años para limpiar de algunos datos sensibles de las configuraciones, setup, y logs de eventos antes de enviarlos. Información principalmente de contraseñas, nombres de usuarios, llaves de encriptación y tokens entre otros.
+
+Este programa de Python lleva bastante tiempo cubriendo mis necesidades básicas así que le pedí a mi amiga ClaudeAI LLM que me lo ordenara, le colocara comentarios, mejorara el manejo de errores, lo hiciera más modular, legible, y lo adhiriera al estándar de programación PEP 8 Python
+
+
+
+## Introducción
+
+Una herramienta potente y fácil de usar para sanitizar archivos de configuración de dispositivos de red mediante la eliminación de información sensible como contraseñas, certificados, claves y credenciales de autenticación.
+
+![](https://github.com/leonelpedroza/ip_monitor/blob/main/Screenshot.png)
+
+## Características
+
+- **Soporte Multi-Fabricante**: Sanitiza archivos de configuración de dispositivos Cisco, Fortinet, Juniper, Huawei, Palo Alto y Gigamon.
+- **Detección Automática**: Identifica automáticamente el tipo de dispositivo a partir del contenido de la configuración.
+- **Modo Vista Previa**: Comparación lado a lado del contenido original y sanitizado antes de realizar cambios.
+- **Gestión de Contraseñas Externa**: Define contraseñas sensibles personalizadas en un archivo externo.
+- **Respaldo Automático**: Crea copias de seguridad de los archivos originales antes de la sanitización.
+- **Multi-threading**: Interfaz de usuario responsive durante la sanitización de archivos grandes.
+- **Registro Completo**: Registros detallados de todas las operaciones.
+
+## ¿Por qué Config Sanitizer?
+
+Los ingenieros de redes a menudo necesitan compartir archivos de configuración con proveedores, colegas o equipos de soporte. Sin embargo, estos archivos típicamente contienen credenciales sensibles y claves que no deberían exponerse. Config Sanitizer elimina automáticamente esta información sensible mientras preserva la estructura del archivo de configuración, haciéndolo seguro para compartir.
+
+## Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/tunombredeusuario/config-sanitizer.git
+
+# Navegar al directorio del proyecto
+cd config-sanitizer
+
+# Instalar dependencias (si se requiere)
+pip install -r requirements.txt
+
+# Ejecutar la aplicación
+python sanitizer.py
+```
+
+## Uso
+
+1. Inicia la aplicación
+2. Selecciona un archivo de configuración usando el botón "Browse Files"
+3. Elige un tipo de dispositivo o usa la detección automática
+4. Haz clic en "Preview" para ver qué será cambiado
+5. Haz clic en "SANITIZE" para procesar el archivo
+6. Una versión sanitizada de tu archivo se guardará con marca de tiempo en el mismo directorio
+
+## Patrones Soportados
+
+La herramienta sanitiza la siguiente información sensible:
+
+- Contraseñas y secretos
+- Cadenas de comunidad SNMP
+- Claves de autenticación
+- Claves SSH
+- Certificados y contenido encriptado
+- Tokens API
+- Secretos compartidos
+- ¡Y mucho más!
+
+## Personalización
+
+- Añade tus propias contraseñas al archivo `secret.txt`
+- Edita patrones específicos del fabricante en el código
+- Contribuye con soporte adicional para fabricantes añadiendo nuevos métodos de sanitización
+
+## Requisitos
+
+- Python 3.6+
+- Tkinter (incluido con la mayoría de instalaciones de Python)
+
+## Contribuir
+
+¡Las contribuciones son bienvenidas! No dudes en enviar un Pull Request.
+
+1. Haz un fork del repositorio
+2. Crea tu rama de características (`git checkout -b feature/caracteristica-asombrosa`)
+3. Haz commit de tus cambios (`git commit -m 'Añadir alguna característica asombrosa'`)
+4. Haz push a la rama (`git push origin feature/caracteristica-asombrosa`)
+5. Abre un Pull Request
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Agradecimientos
+
+- Creado originalmente por lgp DevOps (Marzo 2022)
+- Versión mejorada con características adicionales (2025)
