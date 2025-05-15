@@ -1,5 +1,6 @@
 # Config Sanitizer Tool
 
+
 ## History
 
 In many of my roles installing and maintaining network equipment, I've had to interact with suppliers and manufacturers of communications equipment on several occasions regarding unexpected behaviour and specific inquiries. In almost every case, the support engineer requests a copy of the equipment configuration.
@@ -15,7 +16,7 @@ This Python program has covered my basic needs for quite some time, so I asked m
 
 A powerful, user-friendly tool for sanitizing network device configuration files by removing sensitive information like passwords, certificates, keys, and authentication credentials.
 
-![Config Sanitizer Tool Screenshot](screenshot.png)
+![](https://github.com/leonelpedroza/Sanitizzer/blob/main/Screenshot2.png)
 
 ## Features
 
