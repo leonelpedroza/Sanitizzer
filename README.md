@@ -16,7 +16,7 @@ This Python program has covered my basic needs for quite some time, so I asked m
 
 A powerful, user-friendly tool for sanitizing network device configuration files by removing sensitive information like passwords, certificates, keys, and authentication credentials.
 
-![](https://github.com/leonelpedroza/Sanitizzer/blob/main/Screenshot2.png)
+![](https://github.com/leonelpedroza/Sanitizzer/blob/main/Screenshot.png)
 
 ## Features
 
