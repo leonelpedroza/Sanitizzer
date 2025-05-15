@@ -1,0 +1,29 @@
+# Config Sanitizer Tool - Requirements
+# This file lists the dependencies required to run the Config Sanitizer Tool
+
+# Core dependencies
+tkinter>=8.6  # Usually included with Python, version may vary based on Python version
+
+# Standard library modules (no need to install separately)
+# - os
+# - sys
+# - re
+# - threading
+# - logging
+# - datetime
+# - pathlib
+
+# No external dependencies required! This program uses only standard library modules.
+# If you're using Python 3.6 or above, all required modules are included.
+
+# System-specific notes:
+# - On some Linux distributions, you may need to install Tkinter separately:
+#   For Debian/Ubuntu: sudo apt-get install python3-tk
+#   For Red Hat/Fedora: sudo dnf install python3-tkinter
+#   For Arch Linux: sudo pacman -S tk
+
+# - On macOS, Tkinter should be included with Python installed via python.org or Homebrew,
+#   but not always with system Python. Consider using a package manager like Homebrew.
+
+# Python version
+python>=3.6  # Minimum Python version required
