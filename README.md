@@ -127,7 +127,7 @@ Este programa de Python lleva bastante tiempo cubriendo mis necesidades básicas
 
 Una herramienta potente y fácil de usar para sanitizar archivos de configuración de dispositivos de red mediante la eliminación de información sensible como contraseñas, certificados, claves y credenciales de autenticación.
 
-![](https://github.com/leonelpedroza/ip_monitor/blob/main/Screenshot.png)
+![](https://github.com/leonelpedroza/Sanitizzer/blob/main/Screenshot.png)
 
 ## Características
 
