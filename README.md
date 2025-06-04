@@ -8,11 +8,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Networking-blue?style=for-the-badge&logo=python&logoColor=white">
 </p>
-##
 
-
-
-
+-----------------
 English Version
 ![](https://github.com/leonelpedroza/ip_monitor/blob/main/UKFlag.png)
 
@@ -31,7 +28,10 @@ This Python program has covered my basic needs for quite some time, so I asked m
 
 A powerful, user-friendly tool for sanitizing network device configuration files by removing sensitive information like passwords, certificates, keys, and authentication credentials.
 
-![](https://github.com/leonelpedroza/Sanitizzer/blob/main/Screenshot.png)
+<p align="center">
+  <img src="https://github.com/leonelpedroza/Sanitizzer/blob/main/Screenshot.png">
+</p>
+
 
 ## Features
 
@@ -141,7 +141,9 @@ Este programa de Python lleva bastante tiempo cubriendo mis necesidades básicas
 
 Una herramienta potente y fácil de usar para sanitizar archivos de configuración de dispositivos de red mediante la eliminación de información sensible como contraseñas, certificados, claves y credenciales de autenticación.
 
-![](https://github.com/leonelpedroza/Sanitizzer/blob/main/Screenshot.png)
+<p align="center">
+  <img src="https://github.com/leonelpedroza/Sanitizzer/blob/main/Screenshot.png">
+</p>
 
 ## Características
 
